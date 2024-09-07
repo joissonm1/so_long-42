@@ -2,12 +2,6 @@
 
 `so_long` é um projeto simples em 2D desenvolvido como parte do currículo da 42 School. O objetivo do jogo é coletar todos os itens (coletáveis) no mapa e chegar à saída sem ser derrotado por inimigos ou ficar preso.
 
-## Índice
-
-- [Sobre o Projeto]
-- [Requisitos]
-- [Autoria](jmiguel)
-
 ## Sobre o Projeto
 
 O jogo é inspirado em jogos clássicos de labirinto. O jogador controla um personagem que deve se mover em um mapa, coletando itens e procurando a saída, tudo isso evitando armadilhas ou obstáculos. O mapa é definido em arquivos `.ber`, que são lidos pelo programa para gerar o cenário do jogo.
@@ -16,7 +10,7 @@ O jogo é inspirado em jogos clássicos de labirinto. O jogador controla um pers
 
 - **MiniLibX**: Biblioteca gráfica usada para criar a janela do jogo e desenhar os gráficos. Certifique-se de ter a MiniLibX instalada e configurada corretamente no seu sistema.
 - **GNU make**: Usado para compilar o projeto.
-- **gcc**: Compilador C.
+- **cc**: Compilador C.
 
 ### Dependências
 
